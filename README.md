@@ -1,2 +1,0 @@
-# agilalabb
-agila labb
