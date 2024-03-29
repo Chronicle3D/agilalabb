@@ -1,0 +1,44 @@
+git diff
+Beskrivning: Visar skillnaden mellan arbetskatalogen och det senaste commitade tillståndet.
+
+git fetch <remote>
+Beskrivning: Hämtar alla ändringar från det angivna fjärranslutna repositoriet.
+
+git push -u <fjärrnamn> <branch>
+Beskrivning: Skickar lokal branch till det fjärranslutna repositoriet och sätter en upstream-länk för tracking.
+
+git pull <fjärrnamn> <branch>
+Beskrivning: Hämtar ändringar från det fjärranslutna repositoriet och merger dem in i den nuvarande branchen.
+
+git checkout -b <nybranch>
+Beskrivning: Skapar och byter till en ny branch.
+
+git clone --branch <branch> <url>
+Beskrivning: Klona ett specifikt branch från ett Git-repositorium till din lokala maskin.
+
+git remote add <fjärrnamn> <url>
+Beskrivning: Lägger till en ny fjärranslutning med namnet <fjärrnamn> och URL:en <url>.
+
+git rebase <branch>
+Beskrivning: Flyttar commits från en branch till en annan genom att ändra commitens baskommit.
+
+git log --oneline
+Beskrivning: Visar commit-historiken i en komprimerad en-rad-format.
+
+git rm <fil>
+Beskrivning: Tar bort en fil från arbetskatalogen och stage-området.
+
+git tag <tagname>
+Beskrivning: Skapar en ny tagg för den senaste commiten.
+
+git grep "<sökord>"
+Beskrivning: Söker igenom alla filer i arbetskatalogen efter ett specifikt sökord.
+
+git reset --soft HEAD~1
+Beskrivning: Återställer senaste commit, men behåller ändringarna i arbetskatalogen.
+
+git cherry-pick <commit-id>
+Beskrivning: Applicerar en specifik commit till den aktuella branchen.
+
+git bisect
+Beskrivning: Används för bisektion av historiken för att hitta vilken commit som introducerade en bugg.
